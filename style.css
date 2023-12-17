@@ -11,11 +11,19 @@ body {
     background-color: lightgoldenrodyellow;
 }
 
-.header-left {
-
-}
-
 .header-right {
     display: flex;
     gap: 25px;
+}
+
+.title {
+    background-color: lightcoral;
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+}
+
+.title-left, .title-right {
+    flex-basis: 300px;
 }
