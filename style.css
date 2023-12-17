@@ -67,6 +67,7 @@ a {
 
 .body {
     text-align: center;
+    padding: 50px;
 }
 .body-info {
     display: flex;
@@ -82,3 +83,19 @@ a {
     border: 3px solid #3882f6;
 }
 
+.quote {
+    padding: 50px;
+    background-color: #E5E7EB;
+}
+.quote p {
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.quote strong {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+}
