@@ -2,6 +2,7 @@ body {
     margin: 0px;
 }
 
+
 .header {
     display: flex;
     align-items: center;
@@ -26,4 +27,25 @@ body {
 
 .title-left, .title-right {
     flex-basis: 300px;
+}
+
+.body {
+    text-align: center;
+}
+.body-info {
+    display: flex;
+    justify-content: center;
+    flex-basis: 10px;
+    gap: 30px;
+}
+
+.body-info img {
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
 }
